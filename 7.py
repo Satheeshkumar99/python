@@ -1,3 +1,6 @@
 a=int(input())
-for i in range(0,a):
-  print("hello")
+if a==0:
+  print("")
+else:
+  for i in range(1,a+1):
+      print("hello")
